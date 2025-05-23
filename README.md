@@ -32,7 +32,7 @@ Saving and loading models for inference and deployment.
 🗂️ Dataset
 The project uses a custom dataset hosted on Kaggle:
 
-Kaggle Crop Pest and Disease Detection Dataset
+[Kaggle Crop Pest and Disease Detection Dataset](https://www.kaggle.com/datasets/nirmalsankalana/crop-pest-and-disease-detection)
 
 Dataset Details
 Classes include:
