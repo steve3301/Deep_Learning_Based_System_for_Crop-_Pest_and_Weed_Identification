@@ -1,31 +1,39 @@
-🌿 model2 – Crop Health Classification with Deep Learning
-This Jupyter Notebook contains the code for a deep learning project focused on classifying crop health conditions such as diseases, pests, weeds, and healthy states using a custom-trained model.
+🌿 Model2 – Crop Health Classification with Deep Learning
+This project uses deep learning to classify crop health conditions, including diseases, pests, weeds, and healthy states, using a custom-trained image classification model.
 
 📌 Project Overview
-This project aims to assist farmers and agricultural professionals in identifying plant health conditions through image classification.
-It uses a custom dataset organized in the ImageFolder format and applies a fine-tuned Deep Learning Model architecture.
+This deep learning model is designed to help farmers and agricultural professionals identify plant health issues using image data. The model is trained on a custom ImageFolder dataset and fine-tuned for high accuracy and real-time performance.
 
 ⚙️ Setup Instructions
-Ensure the following Python packages are installed:
+Install Required Libraries:
+
 pip install numpy pandas torch torchvision matplotlib scikit-learn
 
-Or use a requirements.txt file:
+Or use the requirements.txt file:
 
 pip install -r requirements.txt
 
-📁 Contents
-🧹 Data loading and preprocessing using transforms and datasets
+📁 Project Structure
+🧹 Data Loading & Preprocessing
+Using torchvision.transforms and datasets.ImageFolder
 
-🏗️ Model architecture setup and loading
+🏗️ Model Architecture
+Custom or pre-trained architecture with fine-tuning
 
-🧪 Training with validation and testing loops
+🧪 Training, Validation & Testing
+Includes loss tracking and metrics logging
 
-📊 Performance visualization and metrics
+📊 Visualizations
+Accuracy and loss curves, confusion matrix, sample predictions
 
-💾 Model saving/loading for inference
+💾 Model Persistence
+Saving and loading for inference/deployment
 
 🗂️ Dataset
-The dataset used is a custom ImageFolder dataset of:
+This project uses a custom dataset hosted on Kaggle:
+🔗 Crop Pest and Disease Detection – Kaggle
+
+Classes include:
 
 🌾 Plant diseases
 
@@ -35,34 +43,35 @@ The dataset used is a custom ImageFolder dataset of:
 
 ✅ Healthy crops
 
-Structured in class-wise folders, ideal for PyTorch's ImageFolder.
+The dataset is structured using class-wise folders, ideal for PyTorch's ImageFolder.
 
 📚 Libraries Used
-📈 matplotlib
+numpy
 
-🔢 numpy
+pandas
 
-📊 pandas
+matplotlib
 
-🧠 scikit-learn
+scikit-learn
 
-🔥 torch
+torch
 
-🖼️ torchvision
+torchvision
 
 📈 Results
-This notebook provides:
+The notebook provides:
 
-✅ Accuracy metrics
+✅ Accuracy and loss metrics
 
-📉 Loss curves
+📉 Training and validation curves
 
-📷 Visual model predictions
+📷 Sample prediction images
 
-The model is optimized for real-time deployment on mobile devices.
+The final model is optimized for real-time mobile deployment, making it practical for field use.
 
 🧑‍💻 Author
-Shane Steve A – Final Year Project
+Shane Steve A – Final Year B.Tech (AI & Data Science)
+Saranathan College of Engineering
 
 👥 Team Members
 Shane Steve A
