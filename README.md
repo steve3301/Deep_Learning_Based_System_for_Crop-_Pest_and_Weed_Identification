@@ -7,16 +7,12 @@ This project aims to assist farmers and agricultural professionals in identifyin
 Setup Instructions
 Ensure the following Python packages are installed:
 
-bash
-Copy
-Edit
-pip install numpy pandas torch torchvision matplotlib scikit-learn
+• pip install numpy pandas torch torchvision matplotlib scikit-learn
+
 Or use a requirements file if provided:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+• pip install -r requirements.txt
+
 Contents
 Data loading and preprocessing using transforms and datasets
 
