@@ -5,34 +5,36 @@ This project uses deep learning to classify crop health conditions, including di
 This deep learning model is designed to help farmers and agricultural professionals identify plant health issues using image data. The model is trained on a custom ImageFolder dataset and fine-tuned for high accuracy and real-time performance.
 
 ⚙️ Setup Instructions
-Install Required Libraries:
+Install Required Libraries
 
 pip install numpy pandas torch torchvision matplotlib scikit-learn
 
-Or use the requirements.txt file:
+Or install all dependencies using the requirements.txt file:
 
 pip install -r requirements.txt
 
 📁 Project Structure
 🧹 Data Loading & Preprocessing
-Using torchvision.transforms and datasets.ImageFolder
+Using torchvision.transforms and datasets.ImageFolder for data preparation.
 
 🏗️ Model Architecture
-Custom or pre-trained architecture with fine-tuning
+Custom or pre-trained architecture with fine-tuning.
 
 🧪 Training, Validation & Testing
-Includes loss tracking and metrics logging
+Includes loss tracking and metrics logging.
 
 📊 Visualizations
-Accuracy and loss curves, confusion matrix, sample predictions
+Accuracy and loss curves, confusion matrix, and sample predictions.
 
 💾 Model Persistence
-Saving and loading for inference/deployment
+Saving and loading models for inference and deployment.
 
 🗂️ Dataset
-This project uses a custom dataset hosted on Kaggle:
-🔗 Crop Pest and Disease Detection – Kaggle
+The project uses a custom dataset hosted on Kaggle:
 
+Kaggle Crop Pest and Disease Detection Dataset
+
+Dataset Details
 Classes include:
 
 🌾 Plant diseases
